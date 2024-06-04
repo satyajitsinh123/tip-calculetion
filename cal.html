@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cal-project</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+
+<body>
+    <section>
+        <div class="main">
+            <div></div>
+            <div class="heding">
+                <p class="heding-name">TIP CALCULATOR</p>
+            </div>
+            <div class="form">
+                <form action="">
+                    <div class="first-input">
+                        <label for="">Enter Your Bill Amount</label>
+                        <input type="text" class="bill-input" placeholder="Amount paid for services">
+                    </div>
+                    <div class="second-input">
+                        <label for="">How Was The Service</label>
+                        <!-- <input type="text" class="bill-input" placeholder="Amount paid for services"> -->
+                        <select name="" id="" class="select">
+                            <option selected hidden value="Select">Select</option>
+                            <option value="0.05">5% Not so good</option>
+                            <option value="0.1">10% Medium</option>
+                            <option value="0.15">15% Better</option>
+                            <option value="0.2">20% More better</option>
+                            <option value="0.25">25% Excellent</option>
+                        </select>
+                    </div>
+                    <div class="third-input">
+                        <label for="">How Many Pepole Are Sharing The Bill</label>
+                        <input type="text" class="bill-input-1" placeholder="Amount paid for services">
+                    </div>
+                    <button class="btn">Calculate</button>
+                </form> 
+
+                <div class="ans">
+                    <p class="result"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="cal.js"></script>
+
+</html>
